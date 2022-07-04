@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url("./img/bg.jpg");
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.containerCeldas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.celdas{
+    width: 20px;
+    height: 20px;
+    margin: 10px 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid;
+    background: transparent;
+    color: white;
+}
+
+.playerInput{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.playerCommands{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerCelda{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+.btnEnviarLetra{
+    padding: 10px;
+}
+
+.lifeCounter{
+    margin-top: 20px;
+}
+
+.lifeIcon{
+    margin: 0 10px;
+    font-size: 20px;
+    color: red;
+}
+
+p{
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dificultad{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.rangoDif{
+    margin: 5px;
+}
+
+.btnGetWord{
+    margin: 15px;
+    padding: 10px;
+}
+
+.plose{
+    color: black;
+}
+
+.audioControls{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnAudioControl{
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.audioVol{
+    margin: 0 5px;
+}
